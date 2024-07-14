@@ -1,0 +1,50 @@
+Estrutura do Projeto
+Use o framework NestJS. 
+Utilize TypeScript. 
+Configure o projeto com ESLint e Prettier para manter a consistência do código. 
+
+Funcionalidades da API: 
+Livros 
+Criar um novo livro. 
+Listar todos os livros. 
+Buscar um livro por ID. 
+Atualizar um livro existente. 
+Deletar um livro. 
+
+Autores 
+Criar um novo autor. 
+Listar todos os autores. 
+Buscar um autor por ID. 
+Atualizar um autor existente. 
+Deletar um autor. 
+
+Usuários 
+Registro de novos usuários. 
+Login de usuários existentes.
+Logout de usuários. 
+Atualização de dados do perfil. 
+
+Modelo de Dados: 
+Livro 
+ID (auto-gerado) 
+Título (string) 
+Descrição (string) 
+Data de Publicação (date) 
+AutorID (referência ao autor) 
+
+Autor 
+ID (auto-gerado) 
+Nome (string) 
+Biografia (string) 
+Data de Nascimento (date) 
+
+Usuário: 
+ID (auto-gerado) 
+Nome (string) 
+Email (string, único) 
+Senha (string) 
+Role (enum: ['user', 'admin']) 
+
+Banco de Dados 
+Utilize MongoDB. 
+Configure o Mongoose para gerenciar a conexão com o banco de dados e os esquemas.
