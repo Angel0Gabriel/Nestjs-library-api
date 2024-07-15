@@ -133,7 +133,7 @@ src/
 - **POST api/auth/login**: Autenticar um usuário.
 - **POST api/auth/refresh**: Atualizar o token JWT.
 
-## Após realizar a autenticação, passar o access_token no Header da requisição ```Authorization Bearer <access_token>````, para poder acessar as rotas protegidas.
+## Após realizar a autenticação, passar o access_token no Header da requisição `Authorization Bearer <access_token>`, para poder acessar as rotas protegidas.
 
 ### Usuários
 
